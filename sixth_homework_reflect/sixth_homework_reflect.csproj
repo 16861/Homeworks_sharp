@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\sixth_homework_convert\sixth_homework_convert.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="../sixth_homework_convert/bin/Debug/net5.0/sixth_homework_convert.dll" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
